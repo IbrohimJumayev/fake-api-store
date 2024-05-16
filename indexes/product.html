@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/product.css">
+    <script defer src="../scripts/product.js"></script>
+    <title>Product</title>
+</head>
+
+<body>
+     
+    <div class="notif-bar">
+
+        <div class="notif-bar--title">
+            <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+            <a href="#">ShopNow</a>
+        </div>
+
+        <div class="notif-bar--lang">
+
+            <select id="languages">
+                <option value="eng">English</option>
+                <option value="rus">Russian</option>
+                <option value="uzb">Uzbek</option>
+                <option value="arab">Arabic</option>
+            </select>
+
+        </div>
+    </div>
+
+    <nav>
+        <div class="navbar">
+
+            <div class="logo">
+                <a href="#"><img src="../images/Logo.svg" alt=""></a>
+            </div>
+
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign in</a></li>
+            </ul>
+
+        </div>
+
+        <div class="search-container">
+
+            <div class="search">
+                <input type="search" name="" id="search" placeholder="What are you looking for?">
+                <label for="search"><img src="../images/search-logo.svg" alt=""></label>
+            </div>
+
+            <div class="wishlist">
+                <a href="#"><img src="../images/Wishlist.svg" alt="whishlist logo"></a>
+                <a href="#"><img src="../images/cart.svg" alt="cart logo"></a>
+            </div>
+
+        </div>
+    </nav>
+
+    <hr>
+
+    <div class="road-map">
+        <p>Account / Gaming / <span id="productName"></span></p>
+       
+    </div>
+    <div class="spinner"></div>
+
+    <div class="product-details">
+
+        <div class="product--image">
+            <img class="imgPr" src="" alt="">
+            
+        </div>
+       
+
+        <div class="product--info">
+            <p class="title"></p>
+
+            <div class="rating-info">
+                <span id="rating"></span>
+                <p class="reviews"></p>
+                <span id="Stock">In Stock</span>
+            </div>
+
+            <p class="price"></p>
+            <p class="product-overview"></p>
+            
+
+            <div class="colors">
+                <p>Colors:</p>
+
+                <div class="color-option">
+                    <div class="blue"></div>
+                    <div class="pink"></div>
+                </div>
+
+            </div>
+
+            <div class="size">
+                <p>Size:</p>
+
+                <div class="size-options">
+                    <div>XS</div>
+                    <div>S</div>
+                    <div>M</div>
+                    <div>L</div>
+                    <div>XL</div>
+                </div>
+
+            </div>
+
+            <div class="purchase">
+
+                <div class="purchase--amount">
+                    <div><img src="../images/icon-minus.svg" alt=""></div>
+                    <div>2</div>
+                    <div><img src="../images/icon-plus.svg" alt=""></div>
+                </div>
+
+                <div class="purchase--button">
+                    <button>Buy Now</button>
+                </div>
+
+                <button class="whish"><img src="../images/wishlist-white.svg" alt=""></button>
+
+            </div>
+
+            <div class="delivery-options">
+
+                <div class="free-delivery">
+                    <div class="free-del--icon">
+                        <img src="../images/icon-delivery.svg" alt="">
+                    </div>
+
+                    <div class="free-del-title">
+                        <h3>Free Delivery</h3>
+                        <p style="text-decoration: underline;">Enter your postal code for Delivery Availability</p>
+                    </div>
+
+                </div>
+
+                <div class="return-devivery">
+                    <div class="free-del--icon">
+                        <img src="../images/Icon-return.svg" alt="">
+                    </div>
+
+                    <div class="free-del-title">
+                        <h3>Return Delivery</h3>
+                        <p>Free 30 Days Delivery Returns. Details</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
